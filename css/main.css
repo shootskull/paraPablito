@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: red;
+  color: black;
+}
+body .menu {
+  background: white;
+  padding: 5px 15px;
+  width: 100vw;
+  height: 60px;
+}
+body .menu ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+body .menu ul li {
+  list-style: none;
+  padding: 5px;
+  font: bold 15px verdana;
+  display: inline-block;
+}
+body .menu ul .logoPint {
+  width: 50px;
+  display: inline-block;
+}
+body .menu ul a {
+  color: black;
+  text-decoration: none;
+}
+body .container {
+  position: relative;
+  width: 100vw;
+  margin-top: 20px;
+  padding: 5px;
+}
+body .container .contenido {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+body .container .contenido .box {
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+body .container .contenido .box img {
+  width: 100%;
+}
+
+@media screen and (min-width: 300px) {
+  body .container .contenido {
+    height: 10200px;
+  }
+}
+@media screen and (min-width: 660px) {
+  body .container .contenido {
+    height: 3600px;
+  }
+}
+@media screen and (min-width: 950px) {
+  body .container .contenido {
+    height: 2500px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  body .container .contenido {
+    height: 1800px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
